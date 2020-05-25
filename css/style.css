@@ -1,3 +1,11 @@
 .dflex{
     display: flex;
 }
+.footer {
+    background: #070d19;
+    padding: 15px 25px 15px;
+    border-top: 1px solid #262f43;
+    font-size: calc(0.875rem - 0.05rem);
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    margin-top: auto; }
