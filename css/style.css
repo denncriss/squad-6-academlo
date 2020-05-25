@@ -7,10 +7,11 @@
     padding: 20px;
   }
   .card1-item1{
-    background: red;
+    background-image: url(../imagen-card1.jpg);
     grid-column: 2/3;
     grid-row: 1/4;
-    overflow: hidden;
+    background-size: cover;
+    background-position: center;
   }
   .card1-item2{
     background:#0c1427;
@@ -37,10 +38,11 @@
     padding: 20px;
   }
   .card2-item1{
-    background:red;
+    background-image: url(../imagen-card2.jpg);
     grid-column: 2/3;
     grid-row: 1/4;
-    overflow: hidden;
+    background-position: center;
+    background-size: cover;
   }
   .card2-item2{
     background:#0c1427;
@@ -67,10 +69,11 @@
     padding: 20px;
   }
   .card3-item1{
-    background:red;
+    background-image: url(../imagen-card3.jpg);
     grid-column: 2/3;
     grid-row: 1/4;
-    overflow: hidden;
+    background-position: center;
+    background-size: cover;
   }
   .card3-item2{
     background:#0c1427;
