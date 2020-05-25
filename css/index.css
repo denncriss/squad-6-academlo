@@ -13,11 +13,11 @@ body {
   padding: 0 15px;
 }
 
-.header {
+/* .header {
   background-color: #070d19;
   color: #fff;
   height: 40px;
-}
+} */
 
 .title-dashboard {
   display: flex;
