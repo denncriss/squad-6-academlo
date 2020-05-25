@@ -11,11 +11,4 @@
     margin-top: auto;
      
  }
- .flex-column {
-    flex-direction: column !important; }
-  .flex-md-row {
-      flex-direction: row !important; }
-  .align-items-center, .navbar .search-form {
-    align-items: center !important; }
-  .justify-content-between {
-    justify-content: space-between !important; }
+ 
