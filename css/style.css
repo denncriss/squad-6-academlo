@@ -1,0 +1,105 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.input {
+  border: 1px solid #727CF5;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.input svg {
+  padding: 0 7px;
+  color: #727CF5;
+}
+
+.input input {
+  height: 32px;
+  background: transparent;
+  color: #7886a1;
+  border-style: none;
+  border-left: 1px solid #727CF5;
+  padding-left: 15px;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 9px 15px;
+  padding-left: 40px;
+  border-style: none;
+  background: transparent;
+  transition: all .2s ease;
+  position: relative;
+}
+
+.btn svg {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+}
+
+.btn-import {
+  border: 1px solid #66D1D1;
+  color: #66D1D1;
+  border-radius: 4px;
+  outline: none;
+  display: none;
+  margin: 5px 5px;
+}
+
+.btn-print {
+  border: 1px solid #727CF5;
+  color: #727CF5;
+  border-radius: 4px;
+  outline: none;
+  margin: 5px 0;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.btn-download {
+  border: 1px solid #727CF5;
+  color: #fff;
+  background-color: #7e89ff;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-import:hover {
+  background-color: #66D1D1;
+  color: #fff;
+}
+
+.btn-print:hover {
+  background-color: #4E5BF2;
+  color: #fff;
+}
+
+.btn-download:hover {
+  background-color: #4E5BF2;
+}
+
+@media screen and (min-width: 770px) {
+  .btn-import {
+    display: block;
+  }
+}
