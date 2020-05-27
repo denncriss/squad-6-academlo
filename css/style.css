@@ -62,9 +62,9 @@
 .closeMenu{
     display: inline;
 }
-/* .d-flex{
+.d-flex{
     display: flex;
-} */
+}
 .nav{
     line-height: 1.9rem;
     padding: 15px;
@@ -133,4 +133,26 @@
 }
 .navbar-nav li{
     list-style: none;
+}
+
+.input-group .form-control{
+    background: transparent;
+    border: 0;
+    color: #7886a1;
+    padding: 0.8rem;
+}
+.navbar .search-form .input-group .input-group-text {
+    padding: 0 0 0 5px;
+    border: 0;
+    color: #7c818f;
+    background: transparent;
+}
+.input-group-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
 }
