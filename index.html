@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <script src="https://kit.fontawesome.com/79ea086585.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" href="style.css">
   </head>
   <body>
     <header class="header b-blue">
@@ -65,7 +66,46 @@
             </div>
           </div>
           <div>
-            <img class="graphp"src="./graphprincipal/graph.PNG" alt="graph">
+            <canvas class="grafts" id="myChart" width="400" height="400"></canvas>
+    <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+            datasets: [{
+                label: '# of Sales',
+                data: [12, 5, 30, 5, 80, 3],
+                backgroundColor: [
+                    'rgba(190, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(190, 129, 247, 1)',
+                    'rgba(34, 162, 235, 1)',
+                    'rgba(25, 206, 86, 1)',
+                    'rgba(75, 193, 192, 1)',
+                    'rgba(183, 102, 255, 1)',
+                    'rgba(205, 152, 64, 1)'
+                ],
+                borderWidth: 4
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+    </script>
             </div>
          
         </div>

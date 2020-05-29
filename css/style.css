@@ -60,7 +60,9 @@ li.icon {font-size:10px;
         list-style:none;
         
     }
-
+canvas{ margin-top:20px ;
+    
+    ;}
 @media screen and (min-width: 770px) {
     .c2{
         grid-template-columns:2fr 1fr;
