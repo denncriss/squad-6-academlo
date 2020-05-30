@@ -130,23 +130,33 @@
 }
 .navbar-nav{
     display: flex;
-    flex-direction: row;
-    margin-left: auto;
+    /* flex-direction: row; */
+    /* margin-left: auto; */
     padding-left: 0;
     margin-bottom: 0;
-
 }
 .navbar-nav li{
     list-style: none;
     margin-left: 20px;
 }
+.navbar-nav .nav-item a i{
+    font-size: 1.2rem;
+}
+.navbar-nav .nav-link{
+    align-items: center;
+}
+.navbar-nav .nav-item .flag-usa{
+    height: 25px;    
+}
+.navbar-nav .nav-item span{
+    margin-left: 5px;
+
+}
 
 .navbar-nav li .photo-perfil{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-
-
 }
 
 .input-group .form-control{
