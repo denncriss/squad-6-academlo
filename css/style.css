@@ -67,19 +67,26 @@
 }
 .nav{
     line-height: 1.9rem;
-    padding: 15px;
+    padding: 10%;
 }
-.nav li  {
+.nav li{
     list-style: none;
-    color: #fff;
+}
+.nav .nav-item  {
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: #fff;
 }
 .nav li a{
     text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.nav li a, .nav li i{
     color: rgba(228, 222, 222, 0.945);
-    font-weight: 200;
-    font-size: 0.9rem;
+}
+.nav .item-color i, .nav .item-color span{
+    color: #727cf5;
 }
 .sidebar-body .nav li span{
     padding-left: 10px;
@@ -90,8 +97,7 @@
     justify-content: space-between;
 }
 .main-wrapper{
-    display: flex;
-    
+    display: flex;   
 }
 .main-wrapper .page-wrapper{
     min-width: 100vh;
