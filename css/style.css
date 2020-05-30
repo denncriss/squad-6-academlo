@@ -139,8 +139,8 @@
     list-style: none;
     margin-left: 20px;
 }
-.navbar-nav .nav-item a i{
-    font-size: 1.2rem;
+.navbar-nav .nav-item .nav-link i{
+    font-size: 1.3rem;
 }
 .navbar-nav .nav-link{
     align-items: center;
@@ -150,9 +150,7 @@
 }
 .navbar-nav .nav-item span{
     margin-left: 5px;
-
 }
-
 .navbar-nav li .photo-perfil{
     height: 30px;
     width: 30px;
@@ -192,7 +190,6 @@
 }
 .navbar-nav li {
     list-style: none;
-
 }
 .navbar-nav li a{
     text-decoration: none;
