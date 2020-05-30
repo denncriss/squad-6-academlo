@@ -82,6 +82,9 @@
     font-weight: 200;
     font-size: 0.9rem;
 }
+.sidebar-body .nav li span{
+    padding-left: 10px;
+}
 .main-wrapper{
     display: flex;
     
