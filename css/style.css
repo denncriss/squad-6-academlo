@@ -124,9 +124,12 @@
 }
 
 .navbar .navbar-content{
-    /* height: 100%; */
     padding-left: 25px;
     padding-right: 25px;
+    width: 100%;
+}
+.navbar .content-left{
+    padding-left: 200px;
 }
 .navbar-nav{
     display: flex;
