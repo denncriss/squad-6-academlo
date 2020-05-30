@@ -138,7 +138,9 @@
 }
 .navbar-nav li{
     list-style: none;
+    margin-left: 20px;
 }
+
 
 .input-group .form-control{
     background: transparent;
