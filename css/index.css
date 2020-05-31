@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;600;700&display=swap");
 
 * {
-  /* padding: 0;
-  margin: 0; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,12 +17,6 @@ body {
 .container {
   max-width: 100%;
   padding: 0 15px;
-}
-
-.header {
-  background-color: #070d19;
-  color: #fff;
-  height: 40px;
 }
 
 .title-dashboard {
@@ -88,7 +83,6 @@ body {
     grid-template-columns: 1fr 2fr;
   }
 }
-
 
 /* bordes de prueba */
 .b-red {

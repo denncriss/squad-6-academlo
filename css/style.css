@@ -11,7 +11,7 @@
 }
 
 .input {
-  border: 1px solid #727CF5;
+  border: 1px solid #727cf5;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
 
 .input svg {
   padding: 0 7px;
-  color: #727CF5;
+  color: #727cf5;
 }
 
 .input input {
@@ -31,7 +31,7 @@
   background: transparent;
   color: #7886a1;
   border-style: none;
-  border-left: 1px solid #727CF5;
+  border-left: 1px solid #727cf5;
   padding-left: 15px;
 }
 
@@ -44,7 +44,7 @@
   padding-left: 40px;
   border-style: none;
   background: transparent;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   position: relative;
 }
 
@@ -56,8 +56,8 @@
 }
 
 .btn-import {
-  border: 1px solid #66D1D1;
-  color: #66D1D1;
+  border: 1px solid #66d1d1;
+  color: #66d1d1;
   border-radius: 4px;
   outline: none;
   display: none;
@@ -65,8 +65,8 @@
 }
 
 .btn-print {
-  border: 1px solid #727CF5;
-  color: #727CF5;
+  border: 1px solid #727cf5;
+  color: #727cf5;
   border-radius: 4px;
   outline: none;
   margin: 5px 0;
@@ -75,7 +75,7 @@
 }
 
 .btn-download {
-  border: 1px solid #727CF5;
+  border: 1px solid #727cf5;
   color: #fff;
   background-color: #7e89ff;
   border-radius: 4px;
@@ -85,17 +85,17 @@
 }
 
 .btn-import:hover {
-  background-color: #66D1D1;
+  background-color: #66d1d1;
   color: #fff;
 }
 
 .btn-print:hover {
-  background-color: #4E5BF2;
+  background-color: #4e5bf2;
   color: #fff;
 }
 
 .btn-download:hover {
-  background-color: #4E5BF2;
+  background-color: #4e5bf2;
 }
 
 @media screen and (min-width: 770px) {
