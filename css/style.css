@@ -1,0 +1,52 @@
+/* .c5-contenedor-card1{
+    display:grid;
+    grid-template-columns: 0.7fr 1fr;
+    background: #070d19;
+    grid-gap: 7px;
+    padding: 20px;
+} */
+
+.c5-card1-item1{
+    background: #070d19;
+    color: white;
+    font-size: 13px;
+}
+
+.c5-card1-item2{
+
+    background: #070d19;
+    color: #7886a1;
+    font-size: 1rem;
+}
+
+.c5-card1-item4{
+    background: #070d19;
+    color: white;
+    font-size: 1rem;
+}
+
+.c5-sales {display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box{
+
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 30px 60px rgba(0,0,0,.2);
+}
+
+.box .percent{
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
