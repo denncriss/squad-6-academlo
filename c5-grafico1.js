@@ -45,7 +45,7 @@
                 yAxes: [{
                     gridLines: {
                         display: true,
-                        color: "#23282B"
+                        color: "rgba(100, 113, 139, .2)"
                     },
 
                     ticks: {
