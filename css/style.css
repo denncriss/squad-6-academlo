@@ -55,3 +55,11 @@
       line-height: 1.5;
       border-radius: 0.1875rem;
   }
+  .f-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+  .f-align{
+    float: right;
+  }
