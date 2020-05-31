@@ -12,13 +12,6 @@ body {
   max-width: 100%;
   padding: 0 15px;
 }
-
-.header {
-  background-color: #070d19;
-  color: #fff;
-  height: 40px;
-}
-
 .title-dashboard {
   display: flex;
   justify-content: space-between;
