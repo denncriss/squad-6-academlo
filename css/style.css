@@ -1,0 +1,32 @@
+/* .c5-contenedor-card1{
+    display:grid;
+    grid-template-columns: 0.7fr 1fr;
+    background: #070d19;
+    grid-gap: 7px;
+    padding: 20px;
+} */
+
+.c5-card1-item1{
+    background: #070d19;
+    color: white;
+    font-size: 13px;
+}
+
+.c5-card1-item2{
+
+    background: #070d19;
+    color: #7886a1;
+    font-size: 1rem
+}
+
+.c5-card1-item4{
+    background: #070d19;
+    color: white
+    font-size: 1rem;
+}
+
+.c5-sales {display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
