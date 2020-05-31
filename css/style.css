@@ -23,7 +23,7 @@
   float: right;
   }
   
-  li a {
+  li a{
     display: block;
     color: black;
     text-align: center;
@@ -69,4 +69,5 @@
     float: right;
   }
   .f-margin-button{
+    margin-right: 5%
   }
