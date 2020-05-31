@@ -6,25 +6,19 @@
 
 /* SECTION SIDEBAR MENU */
 .sidebar{
-    /* border: 2px solid tomato; */
     width: 250px;
     height: 100%;
     display: none;
     position: absolute;
     background-color: #0c1427;
     z-index: 1;
-    position: fixed;
-    
+    position: fixed; 
 }
 .sidebar-header{
     width: 100%;
     height: 60px;
-    /* border: 2px solid #000; */
-    /* background-color: #0c1427; */
     border-bottom: 1px solid #262f43;
     border-right: 1px solid #262f43;
-    /* justify-content: center;
-    align-items: center; */
     padding-top: 5%;
     padding-left: 10%;
 }
@@ -118,8 +112,6 @@
     align-items: center;
     /* padding: 0; */
     position: fixed;
-    /* right: 0; */
-    /* z-index: 978; */
     box-shadow: 3px 0 10px 0 #03060b;
     transition: width .1s ease, left .1s ease;
     /* flex-wrap: wrap; */
