@@ -81,17 +81,18 @@ body {
   .navbar .content-left{
     padding-left: 0;
   }
+  .sidebar .sidebar-body{
+    overflow-y: scroll;
+  }
   .nav{
     line-height: 2rem;
   }
   .nav .nav-item  {
-    padding-top: 10px;
-}
-  .nav .nav-item  {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    padding-top: 14px;
   }
   .nav li a{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 

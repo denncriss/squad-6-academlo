@@ -50,6 +50,7 @@
     box-shadow: 0 8px 10px 0 #03060b;
     background: #0c1427;
 }
+
 .click-event{
     display: block;
 }
@@ -61,7 +62,7 @@
     display: flex;
 }
 .nav{
-    line-height: 1.9rem;
+    line-height: 1.7rem;
     padding: 5% 10%;
 }
 .nav li{
@@ -71,6 +72,7 @@
     font-weight: 600;
     font-size: 0.9rem;
     color: #fff;
+    padding-top: 12px;
 }
 .nav li a{
     text-decoration: none;
