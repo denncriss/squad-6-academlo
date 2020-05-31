@@ -1,6 +1,5 @@
-.dflex{
-    display: flex;
-}
+
+
 .footer {
     background: #070d19;
     padding: 15px 25px 15px;
@@ -11,7 +10,7 @@
     margin-top: auto;
      
  }
- ul {
+ .f-list{
     list-style-type: none;
     padding: 0;
     overflow: hidden;
