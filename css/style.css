@@ -4,16 +4,34 @@
     justify-content: space-between;
     box-sizing: border-box;
     text-align: center;
-    padding: 20px;
-    border: 1px solid #172340;
+    padding: 1.5rem 1.5rem;
+    border-bottom: 1px solid #172340;
+    border-radius: 0.25rem;
+    background-color: #0C1427;
     width: 100%;
-    overflow-x:scroll;
+    overflow-x: scroll;
+}
+
+.card-projetcs tbody tr:hover{
+    background-color: #172340;
+    color: #7886a1;
+}
+
+@media (min-width: 576px) {
+
+    .card-projetcs tbody tr:hover{
+        background-color: #172340;
+        color: #7886a1;
+    }
 }
 
 .card-projetcs th, .card-projetcs td{
     padding: 0.875rem 0.9375rem;
     vertical-align: top;
     border-top: 1px solid #262f43;
+    border-collapse: collapse;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .card-projetcs thead th{
@@ -36,7 +54,7 @@
     padding-top: 0 !important;
 }
 
-h6{
+.table-title h6{
     margin-top: 0;
 }
 
@@ -81,7 +99,7 @@ h6{
 }
 
 .stat-wip{
-    background-color:gold;
+    background-color:#fbbc06;
     padding: 5px;
     border-radius: 5px 5px;
     text-align: center;
