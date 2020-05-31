@@ -1,0 +1,121 @@
+.card-projetcs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #172340;
+    width: 100%;
+    overflow-x:scroll;
+}
+
+.card-projetcs th, .card-projetcs td{
+    padding: 0.875rem 0.9375rem;
+    vertical-align: top;
+    border-top: 1px solid #262f43;
+}
+
+.card-projetcs thead th{
+    border-top: 0;
+    border-bottom-width: 1px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #7886a1;
+}
+.card-projetcs td{
+    font-size: 0.875rem;
+}
+
+.table-title th{
+    color: #7886a1;
+}
+
+.pt-0{
+    padding-top: 0 !important;
+}
+
+h6{
+    margin-top: 0;
+}
+
+.table-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: -1rem;
+}
+
+.stat-released{
+    background-color:#ff3366;
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: white;
+}
+
+.stat-review{
+    background-color:rgba(16, 212, 105, 0.877);
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: white;
+}
+
+.stat-pending1{
+    background-color:#55dee7;
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: black;
+}
+
+.stat-wip{
+    background-color:gold;
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: black;
+}
+
+.stat-coming-soon1{
+    background-color:#fc79df;
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: white;
+}
+
+.stat-comming-soon2{
+    background-color:#8153ff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: white;
+}
+
+.stat-pending2{
+    background-color:#84f0c6;
+    padding: 5px;
+    border-radius: 5px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size:  0.857rem;
+    color: black;
+}
