@@ -345,3 +345,86 @@
     justify-content: space-between;
 
 }
+/*estilos de componente 3 pablo*/
+.c3-contenedorcard1{
+    display:grid;
+    grid-template-columns: 0.7fr 1fr;
+    background: #0c1427;
+    grid-gap: 7px;
+    padding: 20px;
+  }
+  .c3-card1-item1{
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+  .c3-card1-item2{
+    background:#0c1427;
+    color: white;
+    font-size: 0.9rem;
+  }
+  .c3-card1-item3{
+    background:#0c1427;
+    color: white;
+    font-size: 2rem
+  }
+  .c3-card1-item4{
+    background:#0c1427;
+    color: yellowgreen;
+    font-size: 1rem;
+  }
+
+
+  .c3-contenedorcard2{
+    display:grid;
+    grid-template-columns: 0.7fr 1fr;
+    background: #0c1427;
+    grid-gap: 7px;
+    padding: 20px;
+  }
+  .c3-card2-item1{
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+  .c3-card2-item2{
+    background:#0c1427;
+    color: white;
+    font-size: 0.9rem;
+  }
+  .c3-card2-item3{
+    background:#0c1427;
+    color: white;
+    font-size: 2rem
+  }
+  .c3-card2-item4{
+    background:#0c1427;
+    color: red;
+    font-size: 1rem;
+  }
+
+
+  .c3-contenedorcard3{
+    display:grid;
+    grid-template-columns: 0.7fr 1fr;
+    background: #0c1427;
+    grid-gap: 7px;
+    padding: 20px;
+  }
+  .c3-card3-item1{
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+  .c3-card3-item2{
+    background:#0c1427;
+    color: white;
+    font-size: 0.9rem;
+  }
+  .c3-card3-item3{
+    background:#0c1427;
+    color: white;
+    font-size: 2rem
+  }
+  .c3-card3-item4{
+    background:#0c1427;
+    color: yellowgreen;
+    font-size: 1rem;
+  }
