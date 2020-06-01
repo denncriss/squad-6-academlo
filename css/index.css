@@ -10,13 +10,7 @@ body {
 
 .container {
   max-width: 100%;
-  padding: 0 15px;
-}
-
-.header {
-  background-color: #070d19;
-  color: #fff;
-  height: 40px;
+  padding: 60px 15px;
 }
 
 .title-dashboard {
@@ -76,9 +70,31 @@ body {
 
   .card-tables {
     grid-template-columns: 1fr 2fr;
-  }
+  } 
 }
 
+@media screen and (max-width:770px){
+   /* MENU */
+  .search-form{
+    display: none;
+  }
+  .navbar .content-left{
+    padding-left: 0;
+  }
+  .sidebar .sidebar-body{
+    overflow-y: scroll;
+  }
+  .nav{
+    line-height: 2rem;
+  }
+  .nav .nav-item  {
+    font-size: 1rem;
+    padding-top: 14px;
+  }
+  .nav li a{
+    font-size: 0.9rem;
+  }
+}
 
 /* bordes de prueba */
 .b-red {
