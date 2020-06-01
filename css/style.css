@@ -29,9 +29,7 @@
     text-decoration: none;
   }
   
-  .f-l a:hover {
-  color: black;
-  }
+  
   .b-1{
     background-color: #ff3366;
     border-color: #ff3366;
@@ -44,6 +42,10 @@
     font-weight: 700px;
     margin-right: 10%;
     white-space: nowrap;
+    text-decoration: none;
+  }
+  .b-1:hover {
+    background-color: #d81545;
   }
   .b-2{
       color: #fff;
@@ -55,8 +57,11 @@
       line-height: 1.5;
       border-radius: 0.1875rem;
       margin-right: -120%;
-      padding-top: 20%;
+      padding-top: 22%;
   }
+  .b-2:hover {
+    background-color: #404ccc;
+    }
   .f-fixed{
     position: fixed;
     right: 0;
@@ -68,11 +73,12 @@
     float: right;
   }
   .f-margin-button{
-    margin-right:8%
+    margin-right:9%
   }
   .f-text{
     color: #7886a1;
   }
   .f-text-link{
     color: #727cf5;
+    text-decoration: none;
   }
