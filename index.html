@@ -36,25 +36,26 @@
         <div class="car1 b-gray">tercera card</div>
       </div>
 
-      <div class="card-principal b-red">
-        <!com-- gerardo -->
+
+
+      <div class="card-principal b">
         <!-- rama gerardocomponente4 -->
-         <!-- comentario prueba -->
         <div class="revenue">
           <h3>Revenue</h3>
-          <i class="fas fa-ellipsis-h"></i>git
+          <i class="fas fa-ellipsis-h"></i>
+           <!-- lista desplegable -->
           <div class="displaynone1">
-            <ul>
+            <ul class="icon">
               <li class="icon"><i class="fas fa-eye"></i> View</li>
               <li class="icon"><i class="fas fa-pen"></i> Edit</li>
               <li class="icon"><i class="fas fa-trash-alt"></i> Trash</li>
               <li class="icon"><i class="fas fa-print"></i> Print</li>
               <li class="icon"><i class="fas fa-download"></i> Download</li>
-              
-            </ul>
+              </ul>
           </div>
         </div>
-          <div class="c2 b-green">
+         <!-- texto y navegacion de 4 botones-->
+        <div class="c2 ">
             <div>
               <p class= text1>Revenue is the income that a business has from its normal business activities,usually from the sale<br>of goods and services to customers.</br></p>
             </div>
@@ -64,53 +65,9 @@
               <button>Month</button>
               <button>Year</button>
             </div>
-          </div>
-          <div>
-            <canvas class="grafts" id="myChart" width="400" height="400"></canvas>
-    <script>
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var myChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
-            datasets: [{
-                label: '# of Sales',
-                data: [12, 5, 30, 5, 80, 3],
-                backgroundColor: [
-                    'rgba(190, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
-                ],
-                borderColor: [
-                    'rgba(190, 129, 247, 1)',
-                    'rgba(34, 162, 235, 1)',
-                    'rgba(25, 206, 86, 1)',
-                    'rgba(75, 193, 192, 1)',
-                    'rgba(183, 102, 255, 1)',
-                    'rgba(205, 152, 64, 1)'
-                ],
-                borderWidth: 4
-            }]
-        },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero:true
-                    }
-                }]
-            }
-        }
-    });
-    </script>
-            </div>
-         
         </div>
-          </div>
-          </div>
+        <div class="chartcontainer ">
+            <canvas id="myChart" height="100"></canvas>
         </div>
       </div>
       <div class="card-cloud b-red">
@@ -139,5 +96,6 @@
       <!-- rama footer -->
       footer
     </footer>
+    <script src="c4-grafica.js"></script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;600;700&display=swap");
-
+* {margin:0;
+}
 body {
   padding: 0;
   margin: 0;
@@ -13,11 +14,7 @@ body {
   padding: 0 15px;
 }
 
-.header {
-  background-color: #070d19;
-  color: #fff;
-  height: 40px;
-}
+
 
 .title-dashboard {
   display: flex;
@@ -36,6 +33,10 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 10px 0;
+  background-color:#0C1427;
+  border-color:#172340;
+  
+  
 }
 
 .card-cloud {
@@ -99,5 +100,5 @@ body {
 
 .b-gray {
   border: 1px solid gray;
-  font
+  
 }

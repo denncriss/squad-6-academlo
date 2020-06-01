@@ -1,34 +1,44 @@
+/*titulo*/
 .c2{
-    display:grid;
-    grid-template-columns: 1fr;
-    row-gap:1px;
+    display:flex;
+     
+    justify-content:space-between;
+    flex-direction: column;
+     
 }
+/*botones de tabla*/
 .navbutton{
     border:0px solid #727cf5 ;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    height: 1px;
-    margin-top: 10px; 
+    display:flex ;
+    align-items: center;
+    flex-direction: row;
+    padding:10px 0;
+
 
     
 }
-button{
+.navbutton button{
     border:1px solid #727cf5;
     margin:0px;
     background:#070d19;
     color:#727cf5;
+    padding:7px 15px ;
+    transition:all .4s ;
+     
 }
-button:hover{
+.navbutton button:hover{
     background:#727cf5 ;
     color:white;
 }
-.revenue {display:grid;
-    grid-template-columns:11fr 1fr ;
+.revenue {display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     }
-    i {
-    padding-top:25px ;
-
-    }
+    
+.revenue i {
+    padding-right:10px ;
+}  
     .text1{
     color:#7886a1;
     font-size: 13px;
@@ -47,7 +57,7 @@ button:hover{
          
 
     }
-    .hov:hover .displaynone1{
+    .fa-ellipsis-h:hover .displaynone1{
         display:block ;
     }
     
@@ -56,32 +66,31 @@ li.icon {font-size:10px;
 }
 
 
-    ul{
+    ul.icon{
         list-style:none;
-        
     }
-canvas{ margin-top:20px ;
+    .chartcontainer{
+        display:flex;
     
-    ;}
+    
+    }
+    
 @media screen and (min-width: 770px) {
+
     .c2{
-        grid-template-columns:2fr 1fr;
+    flex-direction: row;
+    align-items: center;
         
     }
-    .navbutton{
-        border:0px solid #727cf5 ;
-        display:grid;
-        grid-template-columns:2fr 2fr 2fr 2fr;
-        height: 1px;
-}
+
+       
+
 .revenue{
     grid-template-columns:30fr 1fr ;
     position: relative;
 }
 
-.graphp{
-    width:100%;
-}
+
 .displaynone1{
     margin-left: 1200px; 
 }
