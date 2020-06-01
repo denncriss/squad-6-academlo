@@ -371,7 +371,7 @@
     fill: none;
     stroke-width: 6;
     stroke: #000;
-    transform: traslate(5px,5px);
+    transform: translate(5px,5px);
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
     stroke-linecap: round;
