@@ -428,3 +428,100 @@
     color: yellowgreen;
     font-size: 1rem;
   }
+/*titulo*/
+.c2{
+    display:flex;
+     
+    justify-content:space-between;
+    flex-direction: column;
+     
+}
+/*botones de tabla*/
+.navbutton{
+    border:0px solid #727cf5;
+    display:flex ;
+    align-items: center;
+    flex-direction: row;
+    padding:10px 0;
+
+
+    
+}
+.navbutton button{
+    border:1px solid #727cf5;
+    margin:0px;
+    background:#070d19;
+    color:#727cf5;
+    padding:7px 15px ;
+    transition:all .4s ;
+     
+}
+.navbutton button:hover{
+    background:#727cf5 ;
+    color:white;
+}
+.revenue {display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    
+.revenue i {
+    padding-right:10px ;
+}  
+    .text1{
+    color:#7886a1;
+    font-size: 13px;
+    }
+    .graphp{
+        width:100%;
+        display:flex;
+        margin-top:30px;
+        flex-direction: row;
+
+    }
+    .displaynone1{position: absolute;
+        margin-top:2px;
+        margin-left:200px ;
+        display: none;
+         
+
+    }
+    .fa-ellipsis-h:hover .displaynone1{
+        display:block ;
+    }
+    
+li.icon {font-size:10px;
+
+}
+
+
+    ul.icon{
+        list-style:none;
+    }
+    .chartcontainer{
+        display:flex;
+    
+    
+    }
+    
+@media screen and (min-width: 770px) {
+
+    .c2{
+    flex-direction: row;
+    align-items: center;
+        
+    }
+
+       
+
+    .revenue{
+        grid-template-columns:30fr 1fr ;
+        position: relative;
+    }
+
+
+    .displaynone1{
+        margin-left: 1200px; 
+    }
+ }

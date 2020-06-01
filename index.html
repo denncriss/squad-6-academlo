@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <script src="https://kit.fontawesome.com/6423cb9ba2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/79ea086585.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" href="style.css">
   </head>
   <body>
     <header class="header main-wrapper">
@@ -244,10 +247,39 @@
         </div>
       </div>
 
-      <div class="card-principal b-red">
-        <!-- gerardo -->
+
+
+      <div class="card-principal b">
         <!-- rama gerardocomponente4 -->
-        <div class="revenue b-green">card principal</div>
+        <div class="revenue">
+          <h3>Revenue</h3>
+          <i class="fas fa-ellipsis-h"></i>
+           <!-- lista desplegable -->
+          <div class="displaynone1">
+            <ul class="icon">
+              <li class="icon"><i class="fas fa-eye"></i> View</li>
+              <li class="icon"><i class="fas fa-pen"></i> Edit</li>
+              <li class="icon"><i class="fas fa-trash-alt"></i> Trash</li>
+              <li class="icon"><i class="fas fa-print"></i> Print</li>
+              <li class="icon"><i class="fas fa-download"></i> Download</li>
+              </ul>
+          </div>
+        </div>
+         <!-- texto y navegacion de 4 botones-->
+        <div class="c2 ">
+            <div>
+              <p class= text1>Revenue is the income that a business has from its normal business activities,usually from the sale<br>of goods and services to customers.</br></p>
+            </div>
+              <div class="navbutton"> 
+              <button>Today</button>
+              <button>Week</button>
+              <button>Month</button>
+              <button>Year</button>
+            </div>
+        </div>
+        <div class="chartcontainer ">
+            <canvas id="c4-myChart" height="100"></canvas>
+        </div>
       </div>
 
         <!-- oliver -->
@@ -310,7 +342,7 @@
     <script src="evento-click.js"></script>
     <script src= "c5-grafico1.js"></script>
 
-
+     <script src="c4-grafica.js"></script>
     <script src="c3-graficos.js"></script>
   </body>
 </html>
