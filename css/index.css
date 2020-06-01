@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;600;700&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-color: #070d19;
-  color: #fff;
+  color: #eef4ff;
   font-family: "Overpass", sans-serif;
 }
 
@@ -16,6 +22,7 @@ body {
 .title-dashboard {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   margin: 10px 0;
 }
 
@@ -58,6 +65,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .title-dashboard {
+    flex-direction: row;
+  }
+
   .card-principal {
     display: grid;
     grid-template-columns: 1fr;
@@ -70,28 +81,28 @@ body {
 
   .card-tables {
     grid-template-columns: 1fr 2fr;
-  } 
+  }
 }
 
-@media screen and (max-width:770px){
-   /* MENU */
-  .search-form{
+@media screen and (max-width: 770px) {
+  /* MENU */
+  .search-form {
     display: none;
   }
-  .navbar .content-left{
+  .navbar .content-left {
     padding-left: 0;
   }
-  .sidebar .sidebar-body{
+  .sidebar .sidebar-body {
     overflow-y: scroll;
   }
-  .nav{
+  .nav {
     line-height: 2rem;
   }
-  .nav .nav-item  {
+  .nav .nav-item {
     font-size: 1rem;
     padding-top: 14px;
   }
-  .nav li a{
+  .nav li a {
     font-size: 0.9rem;
   }
 }
