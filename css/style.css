@@ -313,13 +313,7 @@
     display: block;
   }
 }
-/* .c5-contenedor-card1{
-    display:grid;
-    grid-template-columns: 0.7fr 1fr;
-    background: #070d19;
-    grid-gap: 7px;
-    padding: 20px;
-} */
+/* ESTILOS DE OLIVERCOMPONENTE5 */
 
 .c5-card1-item1{
     background: #070d19;
@@ -343,8 +337,91 @@
 .c5-sales {display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.c5-box{
+
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #070d19;
+    box-shadow: 0 30px 60px rgba(0,0,0,.2);
+}
+
+.c5-box .percent{
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.c5-box .percent svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.c5-box .percent svg circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 6;
+    stroke: #000;
+    transform: traslate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+
+.c5-box .percent svg circle:nth-child(1){
+
+    stroke-dashoffset: 0;
+    stroke: rgba(100, 113, 139, .2);
+}
+
+.c5-box .percent svg circle:nth-child(2){
+
+    stroke-dashoffset: calc(440 - (440 * 87) / 100);
+    stroke: rgba(114, 124, 245, 0.85);
+}
+
+
+.c5-box .percent .number {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color:j #999;
+}
+
+.c5-box .percent .number h2 {
+    
+    font-size: 48px;
+    color: rgba(114, 124, 245, 0.85);
+}
+
+.c5-box .percent .number h2 span {
+
+    font-size: 24px;
+}
+
+.c5-box .text{
+    padding: 10px 0 0;
+    color: #081233;
+    font-weight: 700;
+    letter-spacing: 1px;
 
 }
+
+
 /*estilos de componente 3 pablo*/
 .c3-contenedorcard1{
     display:grid;
