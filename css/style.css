@@ -25,6 +25,10 @@
     }
 }
 
+.card-projetcs table{
+    border-collapse: collapse;
+}
+
 .card-projetcs th, .card-projetcs td{
     padding: 0.875rem 0.9375rem;
     vertical-align: top;
