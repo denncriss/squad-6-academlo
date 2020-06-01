@@ -30,29 +30,3 @@
     justify-content: space-between;
 
 }
-
-.c5-box{
-
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #fff;
-    box-shadow: 0 30px 60px rgba(0,0,0,.2);
-}
-
-.c5-box .percent{
-
-    position: relative;
-    width: 150px;
-    height: 150px;
-}
-
-.c5-box .percent svg {
-    position: ;
-
-
-}
