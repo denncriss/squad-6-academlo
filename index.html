@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>proyecto-squad6</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/index.css" />   
-  </head>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+    </head>
   <body>
     <header class="header b-blue">
       <nav>
@@ -25,26 +26,32 @@
         <div class="buttons b-blue">botones</div>
       </div>
 
-      <div class="card-estadistica b-red">
+      <div class="card-estadistica">
         <!-- pablo -->
         <!-- rama pablocomponente3 -->
-        <div class="car1 b-green contenedorcard1">
-          <div class="card1-item1"></div>
-          <div class="card1-item2"> <strong>NEW CUSTOMERS</strong></div>
-          <div class="card1-item3"><strong>3,897</strong></div>
-          <div class="card1-item4"> <strong>+3.3%</strong></div>
+        <div class="c3-contenedorcard1">
+          <div class="c3-card1-item1">
+            <canvas id="c3-grafica-1" width="100" height="80"></canvas>
+          </div>
+          <div class="c3-card1-item2"> <strong>NEW CUSTOMERS</strong></div>
+          <div class="c3-card1-item3"><strong>3,897</strong></div>
+          <div class="c3-card1-item4"> <strong>+3.3%</strong></div>
         </div>
-        <div class="car1 b-blue contenedorcard2">
-          <div class="card2-item1"></div>
-          <div class="card2-item2"> <strong>NEW ORDERS</strong></div>
-          <div class="card2-item3"><strong>35,084</strong></div>
-          <div class="card2-item4"> <strong>-2.8%</strong></div>
+        <div class="c3-contenedorcard2">
+          <div class="c3-card2-item1">
+            <canvas id="c3-grafica-2" width="100" height="80"></canvas>
+          </div>
+          <div class="c3-card2-item2"> <strong>NEW ORDERS</strong></div>
+          <div class="c3-card2-item3"><strong>35,084</strong></div>
+          <div class="c3-card2-item4"> <strong>-2.8%</strong></div>
         </div>
-        <div class="car1 b-gray contenedorcard3">
-          <div class="card3-item1"></div>
-          <div class="card3-item2"> <strong>GROWTH</strong></div>
-          <div class="card3-item3"><strong>89,87%</strong></div>
-          <div class="card3-item4"> <strong>+2.8%</strong></div>
+        <div class="c3-contenedorcard3">
+          <div class="c3-card3-item1">
+            <canvas id="c3-grafica-3" width="100" height="80"></canvas>
+          </div>
+          <div class="c3-card3-item2"> <strong>GROWTH</strong></div>
+          <div class="c3-card3-item3"><strong>89,87%</strong></div>
+          <div class="c3-card3-item4"> <strong>+2.8%</strong></div>
         </div>
       </div>
 
@@ -78,5 +85,6 @@
       <!-- rama footer -->
       footer
     </footer>
+    <script src="c3-graficos.js"></script>
   </body>
 </html>
