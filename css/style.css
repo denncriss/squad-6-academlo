@@ -735,3 +735,87 @@ color:#eef4ff;
     font-size:  0.857rem;
     color: black;
 }
+
+
+.footer {
+    background: #070d19;
+    padding: 15px 25px 15px;
+    border-top: 1px solid #262f43;
+    font-size: calc(0.875rem - 0.05rem);
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    margin-top: auto;
+     
+ }
+ .f-list{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .f-l {
+  float: right;
+  }
+  
+  .f-l {
+    display: block;
+    text-align: center;
+    padding: .5rem 1rem .4rem;
+    text-decoration: none;
+  }
+  
+  
+  .b-1{
+    background-color: #ff3366;
+    border-color: #ff3366;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.1875rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    padding: .5rem 1rem .4rem;
+    font-weight: 700px;
+    margin-right: 10%;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .b-1:hover {
+    background-color: #d81545;
+  }
+  .b-2{
+      color: #fff;
+      background-color: #727cf5;
+      border-color: #727cf5;
+      border: 1px solid transparent;
+      padding: 0.3rem 1rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      border-radius: 0.1875rem;
+      margin-right: -120%;
+      padding-top: 22%;
+  }
+  .b-2:hover {
+    background-color: #404ccc;
+    }
+  .f-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .f-align{
+    float: right;
+  }
+  .f-margin-button{
+    margin-right:9%
+  }
+  .f-text{
+    color: #7886a1;
+  }
+  .f-text-link{
+    color: #727cf5;
+    text-decoration: none;
+  }
