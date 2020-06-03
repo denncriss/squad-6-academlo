@@ -112,7 +112,6 @@ body {
   /* Barra scroll Zigor componente7 */
   .card-tables .card-projetcs{
     overflow-x: scroll;
-    scrollbar-color: grey ;
   }
 }
 

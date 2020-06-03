@@ -735,7 +735,9 @@ color:#eef4ff;
 .table-title h6{
     margin-top: 0;
 }
-
+.table-container{
+  width: 100%;
+}
 .table-title{
     display: flex;
     flex-direction: row;
