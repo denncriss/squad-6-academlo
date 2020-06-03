@@ -670,7 +670,8 @@ color:#eef4ff;
 .c6-width-100{
     width: 100%;
 }
-.card-projetcs{
+/*ZIGOR zigorcomponente7*/
+.card-tables .card-projetcs{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -813,6 +814,7 @@ color:#eef4ff;
     font-size:  0.857rem;
     color: black;
 }
+/*Fin de zigorcomponente7*/
 
 
 .footer {
