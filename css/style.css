@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
   box-sizing: border-box;
 }
@@ -602,9 +602,8 @@ li.icon {font-size:10px;
         margin-left: 1200px; 
     }
  }
-*{
-    margin: 0;
-}
+
+/* COMPONENTE 6 - HERIBERTO */
 .card-inbox{
     background-color: #0c1427 ;
     border-radius:5px ;
@@ -614,6 +613,7 @@ li.icon {font-size:10px;
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.5rem;
+    height: 100%;
 }
 .c6-card-title{
     color: #eef4ff;
@@ -624,6 +624,7 @@ li.icon {font-size:10px;
 }
 .c6-d-flex{
     display: flex;
+    padding: 0.5rem 0;
 }
 .c6-flex-column{
     flex-direction: column;
