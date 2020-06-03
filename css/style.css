@@ -429,6 +429,8 @@ color:j #999;
     background: #0c1427;
     grid-gap: 7px;
     padding: 20px;
+    border: 1px solid #172340;
+    border-radius: 0.25rem;
   }
   .c3-card1-item1{
     grid-column: 2/3;
@@ -457,6 +459,8 @@ color:j #999;
     background: #0c1427;
     grid-gap: 7px;
     padding: 20px;
+    border: 1px solid #172340;
+    border-radius: 0.25rem;
   }
   .c3-card2-item1{
     grid-column: 2/3;
@@ -485,6 +489,8 @@ color:j #999;
     background: #0c1427;
     grid-gap: 7px;
     padding: 20px;
+    border: 1px solid #172340;
+    border-radius: 0.25rem;
   }
   .c3-card3-item1{
     grid-column: 2/3;
