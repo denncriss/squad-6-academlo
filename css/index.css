@@ -85,6 +85,7 @@ body {
   .card-tables {
     grid-template-columns: 1fr 2fr;
   }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -107,6 +108,11 @@ body {
   }
   .nav li a {
     font-size: 0.9rem;
+  }
+  /* Barra scroll Zigor componente7 */
+  .card-tables .card-projetcs{
+    overflow-x: scroll;
+    scrollbar-color: grey ;
   }
 }
 

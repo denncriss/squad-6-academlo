@@ -613,7 +613,7 @@ li.icon {font-size:10px;
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.5rem;
-    height: 100%;
+    /* height: 100%; */
 }
 .c6-card-title{
     color: #eef4ff;
@@ -682,9 +682,10 @@ color:#eef4ff;
     border-radius: 0.25rem;
     background-color: #0C1427;
     width: 100%;
-    overflow-x: scroll;
 }
-
+.card-projetcs{
+  border: 1px solid #172340;
+}
 .card-projetcs tbody tr:hover{
     background-color: #172340;
     color: #7886a1;
@@ -742,7 +743,7 @@ color:#eef4ff;
     text-transform: uppercase;
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 .stat-released{
