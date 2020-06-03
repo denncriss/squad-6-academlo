@@ -506,12 +506,16 @@ color:j #999;
     font-size: 1rem;
   }
 /*titulo*/
+/* GERARDO COMPONENTE4  */
+.card-principal{
+  border: 1px solid #172340;
+  border-radius: 0.25rem;
+}
 .c2{
-    display:flex;
-     
-    justify-content:space-between;
-    flex-direction: column;
-     
+  display:flex;
+    
+  justify-content:space-between;
+  flex-direction: column;
 }
 /*botones de tabla*/
 .navbutton{
@@ -519,10 +523,7 @@ color:j #999;
     display:flex ;
     align-items: center;
     flex-direction: row;
-    padding:10px 0;
-
-
-    
+    padding:10px 0; 
 }
 .navbutton button{
     border:1px solid #727cf5;
